@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "com.tgw.app-main-17:/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.tgw.app-main-17:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/layout_spinner_item.xml.flat",
+        "source": "com.tgw.app-main-17:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/layout_activity_settings.xml.flat",
+        "source": "com.tgw.app-main-17:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.tgw.app-main-17:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.tgw.app-main-17:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable_logout.png.flat",
+        "source": "com.tgw.app-main-17:/drawable/logout.png"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.tgw.app-main-17:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/layout_activity_login.xml.flat",
+        "source": "com.tgw.app-main-17:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.tgw.app-main-17:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/layout_activity_main.xml.flat",
+        "source": "com.tgw.app-main-17:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/layout_activity_store_selection.xml.flat",
+        "source": "com.tgw.app-main-17:/layout/activity_store_selection.xml"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/raw_meccc.mp3.flat",
+        "source": "com.tgw.app-main-17:/raw/meccc.mp3"
+    },
+    {
+        "merged": "com.tgw.app-merged_res-15:/drawable_border.xml.flat",
+        "source": "com.tgw.app-main-17:/drawable/border.xml"
+    }
+]

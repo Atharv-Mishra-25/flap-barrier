@@ -1,0 +1,243 @@
+{
+  "project_info": {
+    "project_number": "642734455254",
+    "firebase_url": "https://queuebuster-23f36.firebaseio.com",
+    "project_id": "queuebuster-23f36",
+    "storage_bucket": "queuebuster-23f36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:b144267279f3fc6d69cc77",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.fbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:c61b7809930cfb0969cc77",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.fbapp.a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:2d1def125d14a7e9",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.mpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:fe771d4f222df54769cc77",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.mpos.doroki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:3abffa46e144389269cc77",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.mpos.mugushop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:64b9b8b30e27e09769cc77",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.mpos.utap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:68c70fa7480e33b9",
+        "android_client_info": {
+          "package_name": "com.dpdtech.application.qbmerchantreportapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642734455254:android:73002ccc54fee5ce",
+        "android_client_info": {
+          "package_name": "com.dpdtecth.application.chatsupportapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNEAnvwYcdQ4Onkw2djXchlHiqaRzIVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642734455254-jqtq7fd3ae4isscc5hkttv3ihq3mp1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

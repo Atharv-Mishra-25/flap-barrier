@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/barcodetext"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="30dp"-->
+
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        android:layout_toLeftOf="@id/bt_clear"-->
+    <!--        android:background="@drawable/border"-->
+    <!--        android:padding="10dp"-->
+
+    <!--        android:textSize="20dp"-->
+    <!--        android:textStyle="bold"-->
+
+    <!--        />-->
+    <!-- <Button
+         android:id="@+id/bt_clear"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toLeftOf="@id/bt_view"
+         android:layout_marginTop="30dp"
+         android:padding="20dp"
+         android:text="CLEAR"
+         android:textSize="20sp"
+         android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:id="@+id/lytdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/txttotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Total Tickets"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+
+                    android:id="@+id/txtcat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Total Category in each group"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+
+                    android:id="@+id/txttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Last Scanned Category"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="20dp"
+        android:text="HIDE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Thank you for visiting wonderla...\n Your account balance is Rs.100"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+
+        />
+
+    <LinearLayout
+
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lytdata"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/selectedGateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Selected Gate:- Not Selected" />
+
+        <TextView
+            android:id="@+id/selectedChainIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Selected StoreId:- Not Selected" />
+
+        <TextView
+            android:id="@+id/selectedStoreIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Selected ChainId:- Not Selected" />
+
+
+        <Button
+            android:id="@+id/setupBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/baseline_settings_24"
+            android:drawablePadding="10dp"
+            android:text="Setup"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_openRedTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="openRed -01"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_openGreenTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_openRedTest"
+            android:text="openGreen -I02"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_openBlueTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_openGreenTest"
+            android:text="openBlue-IO3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_closeTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_openBlueTest"
+            android:onClick="close"
+            android:text="Turn off all lights "
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_INOpenDoorTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_swallowCardTest"
+            android:text="INOpenDoor -IO5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_TestIO6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_INOpenDoorTest"
+            android:layout_marginTop="10dp"
+            android:onClick="testIO6"
+            android:text="TestIO6 -IO6"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/logClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_TestIO6"
+            android:layout_marginTop="10dp"
+            android:onClick="logClear"
+            android:text="logClear"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logClear"
+            android:layout_marginTop="10dp"
+            android:onClick="logClear"
+            android:text="Connect"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/logContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logClear"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="logs             "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

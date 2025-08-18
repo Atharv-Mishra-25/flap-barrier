@@ -1,0 +1,130 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    namespace("com.tgw")
+    compileSdkVersion 30
+    buildToolsVersion "28.0.3"
+
+    signingConfigs {
+        release {
+            storeFile file("keystore.jks") // Change to your actual keystore file
+            storePassword "your_store_password"
+            keyAlias "your_key_alias"
+            keyPassword "your_key_password"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    flavorDimensions "version"
+
+    productFlavors {
+        staging {
+            dimension "version"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.dpdtech.application.fbapp.a"
+        minSdkVersion 21
+        targetSdk 33
+    }
+
+    flavorDimensions "default"
+
+    // Define build variants (product flavors)
+    productFlavors {
+        dev {
+            applicationIdSuffix ".dev"
+            dimension "default"
+            buildConfigField "String", "SOCKET_BASE_URL", "\"35.208.120.116\""
+            buildConfigField "String", "API_BASE_URL", "\"testapi.queuebuster.co\""
+        }
+
+        staging {
+            dimension "default"
+            buildConfigField "String", "SOCKET_BASE_URL", "\"35.208.120.116\""
+            buildConfigField "String", "API_BASE_URL", "\"testapi.queuebuster.co\""
+        }
+
+        prod {
+            dimension "default"
+            buildConfigField "String", "SOCKET_BASE_URL", "\"wlgate.queuebuster.co\""
+            buildConfigField "String", "API_BASE_URL", "\"wlapi.queuebuster.co\""
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    // Build types (debug/release)
+    buildTypes {
+        debug {
+            //applicationIdSuffix ".debug"
+            debuggable true
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    defaultConfig {
+        multiDexEnabled true
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        ndk {
+            abiFilters 'armeabi', 'x86', 'armeabi-v7a'
+        }
+
+
+        sourceSets {
+            main {
+                jni.srcDirs = []
+//                jniLibs.srcDirs = ['libs']
+            }
+        }
+
+        //  javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+    }
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.4'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation files('src\\main\\libs\\smdt.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('src\\main\\libs\\jna.jar')
+    implementation files('src\\main\\libs\\jna-platform.jar')
+
+//    implementation(platform 'com.google.firebase:firebase-bom:33.5.1')
+//
+//    // Add the dependencies for the Crashlytics and Analytics libraries
+//    // When using the BoM, you don't specify versions in Firebase library dependencies
+//    implementation 'com.google.firebase:firebase-crashlytics'
+//    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'io.ktor:ktor-client-websockets:1.5.0'
+    implementation 'io.ktor:ktor-client-okhttp:1.5.0'
+    implementation 'org.java-websocket:Java-WebSocket:1.4.0'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'androidx.multidex:multidex-instrumentation:2.0.0'
+    implementation("com.google.firebase:firebase-crashlytics:19.4.0")
+
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'

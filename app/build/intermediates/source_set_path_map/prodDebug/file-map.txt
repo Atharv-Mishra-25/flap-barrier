@@ -1,0 +1,20 @@
+com.tgw.app-jetified-datastore-preferences-1.0.0-0 /Users/queuebuster/.gradle/caches/transforms-4/661435501800da42dd5f6086684817f5/transformed/jetified-datastore-preferences-1.0.0/res
+com.tgw.app-jetified-firebase-crashlytics-19.4.0-1 /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/res
+com.tgw.app-jetified-firebase-common-21.0.0-2 /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/res
+com.tgw.app-coordinatorlayout-1.0.0-3 /Users/queuebuster/.gradle/caches/transforms-4/7d7c979cd7d96a90959d8e4404f7d16a/transformed/coordinatorlayout-1.0.0/res
+com.tgw.app-core-1.2.0-4 /Users/queuebuster/.gradle/caches/transforms-4/86d9737edcfa49bf9b6156893b0e3da9/transformed/core-1.2.0/res
+com.tgw.app-jetified-play-services-basement-18.3.0-5 /Users/queuebuster/.gradle/caches/transforms-4/937e3bd7327988a2372aac3f4a64f4c1/transformed/jetified-play-services-basement-18.3.0/res
+com.tgw.app-jetified-datastore-1.0.0-6 /Users/queuebuster/.gradle/caches/transforms-4/aa7d34bc8df9009153220feb6a3ceb12/transformed/jetified-datastore-1.0.0/res
+com.tgw.app-appcompat-1.0.0-7 /Users/queuebuster/.gradle/caches/transforms-4/bf89649c6dc2de7aff6d72b1bee01a57/transformed/appcompat-1.0.0/res
+com.tgw.app-media-1.0.0-8 /Users/queuebuster/.gradle/caches/transforms-4/f1c45ec4b7c9651ccba4535c73e5b09b/transformed/media-1.0.0/res
+com.tgw.app-prod-9 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/generated/crashlytics/res/prod/debug
+com.tgw.app-prod-10 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/generated/res/google-services/prod/debug
+com.tgw.app-prod-11 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/generated/res/pngs/prod/debug
+com.tgw.app-prod-12 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/generated/res/resValues/prod/debug
+com.tgw.app-packageProdDebugResources-13 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/intermediates/incremental/prodDebug/packageProdDebugResources/merged.dir
+com.tgw.app-packageProdDebugResources-14 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/intermediates/incremental/prodDebug/packageProdDebugResources/stripped.dir
+com.tgw.app-merged_res-15 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/build/intermediates/merged_res/prodDebug
+com.tgw.app-debug-16 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/debug/res
+com.tgw.app-main-17 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/res
+com.tgw.app-prod-18 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/prod/res
+com.tgw.app-prodDebug-19 /Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/prodDebug/res

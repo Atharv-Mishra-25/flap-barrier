@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dpdtech.application.fbapp.a"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:6:5-8:36
+12        android:name="android.hardware.camera"
+12-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:7:9-47
+13        android:required="false" />
+13-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:8:9-33
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+16-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:11:5-84
+16-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:11:22-81
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:12:5-75
+17-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:12:5-75
+18-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> -->
+19-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:14:5-81
+19-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+20-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:15:5-73
+20-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:15:22-70
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:16:5-65
+21-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:16:22-62
+22    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于进行网络定位 -->
+22-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:17:5-78
+22-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:17:22-75
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于访问GPS定位 -->
+23-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:18:5-81
+23-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 开机启动权限 -->
+24-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:19:5-79
+24-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:19:22-76
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+25-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:20:5-81
+25-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:20:22-78
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+26-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:21:5-79
+26-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:21:22-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+27-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:22:5-76
+27-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:22:22-73
+28    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+28-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:23:5-76
+28-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:23:22-73
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:24:5-68
+29-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:24:22-65
+30
+31    <application
+31-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:26:5-55:19
+32        android:allowBackup="true"
+32-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:27:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.2.0] /Users/queuebuster/.gradle/caches/transforms-4/86d9737edcfa49bf9b6156893b0e3da9/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@drawable/ic_launcher"
+35-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:28:9-45
+36        android:label="@string/app_name"
+36-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:29:9-41
+37        android:theme="@style/AppTheme"
+37-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:30:9-40
+38        android:usesCleartextTraffic="true"
+38-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:31:9-44
+39        android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+39-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:32:9-68
+40        <activity
+40-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:33:9-43:20
+41            android:name="com.dpdtech.application.newApp.LoginActivity"
+41-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:34:13-72
+42            android:exported="true"
+42-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:35:13-36
+43            android:launchMode="singleTask" >
+43-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:36:13-44
+44            <intent-filter>
+44-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:37:13-41:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:38:17-69
+45-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:40:17-77
+47-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:44:9-46:40
+51            android:name="com.dpdtech.application.newApp.SettingsActivity"
+51-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:45:13-75
+52            android:exported="false" />
+52-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:46:13-37
+53        <activity
+53-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:47:9-50:16
+54            android:name="com.dpdtech.application.newApp.MainActivity"
+54-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:48:13-71
+55            android:exported="true" />
+55-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:49:13-36
+56        <activity
+56-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:51:9-54:47
+57            android:name="com.dpdtech.application.newApp.StoreSelectionActivity"
+57-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:52:13-81
+58            android:exported="true"
+58-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:53:13-36
+59            android:launchMode="singleTask" />
+59-->/Users/queuebuster/Downloads/saifengsmdtTest 3/app/src/main/AndroidManifest.xml:54:13-44
+60
+61        <service
+61-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:12:9-21:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:13:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:14:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:15:13-17:85
+66                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+66-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:16:17-126
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:17:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:18:13-20:85
+69                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+69-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:19:17-115
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-crashlytics:19.4.0] /Users/queuebuster/.gradle/caches/transforms-4/74a746346e100a73d8deeae7d4dec37b/transformed/jetified-firebase-crashlytics-19.4.0/AndroidManifest.xml:20:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:29:13-31:85
+72                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+72-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:30:17-117
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:31:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-installations:18.0.0] /Users/queuebuster/.gradle/caches/transforms-4/2de0fb758b943b9cd78bd939d60d61fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+75                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+75-->[com.google.firebase:firebase-installations:18.0.0] /Users/queuebuster/.gradle/caches/transforms-4/2de0fb758b943b9cd78bd939d60d61fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-installations:18.0.0] /Users/queuebuster/.gradle/caches/transforms-4/2de0fb758b943b9cd78bd939d60d61fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-installations:18.0.0] /Users/queuebuster/.gradle/caches/transforms-4/2de0fb758b943b9cd78bd939d60d61fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+78                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+78-->[com.google.firebase:firebase-installations:18.0.0] /Users/queuebuster/.gradle/caches/transforms-4/2de0fb758b943b9cd78bd939d60d61fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-installations:18.0.0] /Users/queuebuster/.gradle/caches/transforms-4/2de0fb758b943b9cd78bd939d60d61fa/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/143c50dd369b1ca748c0b6707e31c651/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+81                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+81-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/143c50dd369b1ca748c0b6707e31c651/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/143c50dd369b1ca748c0b6707e31c651/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+84                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+84-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/queuebuster/.gradle/caches/transforms-4/d3fe56e1d49acf5ef2201a5a20845ab8/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+87                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+87-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/queuebuster/.gradle/caches/transforms-4/d3fe56e1d49acf5ef2201a5a20845ab8/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/queuebuster/.gradle/caches/transforms-4/d3fe56e1d49acf5ef2201a5a20845ab8/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+89        </service>
+90        <service
+90-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:22:9-25:40
+91            android:name="com.google.firebase.sessions.SessionLifecycleService"
+91-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:23:13-80
+92            android:enabled="true"
+92-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:24:13-35
+93            android:exported="false" />
+93-->[com.google.firebase:firebase-sessions:2.0.8] /Users/queuebuster/.gradle/caches/transforms-4/cc46166760f5e3170d30ce59cc975204/transformed/jetified-firebase-sessions-2.0.8/AndroidManifest.xml:25:13-37
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+97            android:authorities="com.dpdtech.application.fbapp.a.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:21.0.0] /Users/queuebuster/.gradle/caches/transforms-4/7beed5692512c74afeb102667368096a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:18.3.0] /Users/queuebuster/.gradle/caches/transforms-4/937e3bd7327988a2372aac3f4a64f4c1/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:18.3.0] /Users/queuebuster/.gradle/caches/transforms-4/937e3bd7327988a2372aac3f4a64f4c1/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:18.3.0] /Users/queuebuster/.gradle/caches/transforms-4/937e3bd7327988a2372aac3f4a64f4c1/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+105
+106        <service
+106-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/93afc025a8086843c6e47f9c83f70fa9/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+107            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+107-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/93afc025a8086843c6e47f9c83f70fa9/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+108            android:exported="false" >
+108-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/93afc025a8086843c6e47f9c83f70fa9/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+109            <meta-data
+109-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/93afc025a8086843c6e47f9c83f70fa9/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+110                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+110-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/93afc025a8086843c6e47f9c83f70fa9/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+111                android:value="cct" />
+111-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/93afc025a8086843c6e47f9c83f70fa9/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+112        </service>
+113        <service
+113-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+114-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+115            android:exported="false"
+115-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" >
+116-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+117        </service>
+118
+119        <receiver
+119-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+120-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+121            android:exported="false" />
+121-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/queuebuster/.gradle/caches/transforms-4/db4fc312f194653c5af80e409d20559c/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+122    </application>
+123
+124</manifest>
