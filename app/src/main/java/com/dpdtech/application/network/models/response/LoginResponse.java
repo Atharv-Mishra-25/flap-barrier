@@ -136,9 +136,12 @@ public class LoginResponse implements Parcelable {
         public int storeID;
         public String storeName;
 
+        public String regionID;
+
         protected StoreList(Parcel in) {
             storeID = in.readInt();
             storeName = in.readString();
+            regionID = in.readString();
         }
 
         public static final Creator<StoreList> CREATOR = new Creator<StoreList>() {
@@ -157,6 +160,7 @@ public class LoginResponse implements Parcelable {
         public void writeToParcel(Parcel dest, int flags) {
             dest.writeInt(storeID);
             dest.writeString(storeName);
+            dest.writeString(regionID);
         }
 
         @Override

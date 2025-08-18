@@ -102,9 +102,11 @@ public class MainActivity extends Activity {
         TextView selectedGateTextView = findViewById(R.id.selectedGateTextView);
         TextView selectedChainIdTextView = findViewById(R.id.selectedChainIdTextView);
         TextView selectedStoreIdTextView = findViewById(R.id.selectedStoreIdTextView);
+        TextView selectedRegionIdTextView = findViewById(R.id.selectedRegionIdTextView);
 
         SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", Context.MODE_PRIVATE);
         String storeId = sharedPreferences.getString("storeId", null);
+        String regionId = sharedPreferences.getString("regionID", null);
         String chainId = sharedPreferences.getString("chainId", null);
         String gate = sharedPreferences.getString("gate", null);
         gateTiming = Long.parseLong(sharedPreferences.getString("timing", "2"));
@@ -129,16 +131,17 @@ public class MainActivity extends Activity {
 
 
         // Check if data exists in SharedPreferences
-        if (storeId != null && chainId != null && gate != null) {
+        if (storeId != null && chainId != null && gate != null && regionId != null) {
             // Construct the WebSocket URL
 
             selectedGateTextView.setText("Selected Gate: " + gate);
             selectedChainIdTextView.setText("Selected ChainId: " + chainId);
             selectedStoreIdTextView.setText("Selected StoreId: " + storeId);
+            selectedRegionIdTextView.setText("RegionID: " + regionId);
 
             String WEB_SOCKET_URL = String.format(
-                    "ws://" + Constants.SOCKET_BASE_URL + "/ws/?deviceID=2143&storeID=%s&chainID=%s&gate=%s&regionID=1",
-                    storeId, chainId, gate
+                    "ws://" + Constants.SOCKET_BASE_URL + "/ws/?deviceID=2143&storeID=%s&chainID=%s&gate=%s&regionID=%s",
+                    storeId, chainId, gate, regionId
             );
 
             // Create and connect the WebSocket client
@@ -258,15 +261,16 @@ public class MainActivity extends Activity {
         String storeId = sharedPreferences.getString("storeId", null);
         String chainId = sharedPreferences.getString("chainId", null);
         String gate = sharedPreferences.getString("gate", null);
+        String regionId = sharedPreferences.getString("regionID", null);
 
-        if (storeId != null && chainId != null && gate != null) {
+        if (storeId != null && chainId != null && gate != null && regionId != null) {
             // Construct the WebSocket URL
             disconnect();
 
 
             String WEB_SOCKET_URL = String.format(
-                    "ws://" + Constants.SOCKET_BASE_URL + "/ws/?deviceID=2143&storeID=%s&chainID=%s&gate=%s&regionID=1",
-                    storeId, chainId, gate
+                    "ws://" + Constants.SOCKET_BASE_URL + "/ws/?deviceID=2143&storeID=%s&chainID=%s&gate=%s&regionID=%s",
+                    storeId, chainId, gate, regionId
             );
 
             // Create and connect the WebSocket client

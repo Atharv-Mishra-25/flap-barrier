@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -37,6 +38,7 @@ public class LoginActivity extends Activity {
     String selectedGate;
     String chainId;
     String storeId;
+    String regionID;
     String responseString;
     Spinner spinnerGate;
     Button enterButton;
@@ -135,6 +137,7 @@ public class LoginActivity extends Activity {
                         spinnerGate.setVisibility(View.VISIBLE);
                         chainId = String.valueOf(response.body().chainID);
                         storeId = String.valueOf(response.body().storeList.get(0).storeID);
+                        regionID = String.valueOf(response.body().storeList.get(0).regionID);
                         if (!response.body().flapBarrierCounters.isEmpty()) {
                             setSpinner(response.body().flapBarrierCounters);
                         } else {
@@ -146,6 +149,7 @@ public class LoginActivity extends Activity {
                         Gson gson = new Gson();
                         responseString = gson.toJson(response.body());
                         Toast.makeText(getApplicationContext(), "Api response - " + response.body().status, Toast.LENGTH_LONG).show();
+                        Log.d("loginResponse", responseString);
 //                        Intent intent = new Intent(LoginActivity.this, StoreSelectionActivity.class);
 //                        intent.putExtra("responseModel", response.body());
 //                        startActivity(intent);
@@ -196,6 +200,7 @@ public class LoginActivity extends Activity {
         SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("storeId", storeId);
+        editor.putString("regionID", regionID);
         editor.putString("chainId", chainId);
         editor.putString("responseString", responseString);
         editor.putString("gate", selectedGate.trim().replace(" ", "").toLowerCase());
